@@ -1,9 +1,0 @@
-{
-  "prettier/prettier": [
-    "warning",
-    {},
-    {
-      "usePrettierrc": false
-    }
-  ]
-}
