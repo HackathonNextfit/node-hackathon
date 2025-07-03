@@ -10,7 +10,7 @@ export class AuthService {
   constructor(private readonly httpService: HttpService) {}
 
   async login(loginRequestDto: LoginRequestDto) {
-    const apiURL = 'https://api.sandbox.appnext.fit/api/';
+    const apiURL = 'https://api-sandbox.appnext.fit/api/';
 
     const params = {
       grant_type: 'password',

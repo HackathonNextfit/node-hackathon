@@ -11,7 +11,7 @@ export class ExemploService {
     codigoUsuario: string,
     codigoUnidade: string,
   ) {
-    const apiURL = 'https://api.sandbox.appnext.fit/api/';
+    const apiURL = 'https://api-sandbox.appnext.fit/api/';
 
     const headers = {
       Authorization: `${authorization}`,
@@ -30,7 +30,7 @@ export class ExemploService {
   }
 
   async getEnums(authorization: string) {
-    const apiURL = 'https://api.sandbox.appnext.fit/api/';
+    const apiURL = 'https://api-sandbox.appnext.fit/api/';
 
     const headers = {
       Authorization: `${authorization}`,
